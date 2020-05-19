@@ -1,0 +1,162 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat";
+  font-weight: 700;
+}
+
+p {
+  font-family: "Montserrat";
+  color: #8f8f8f;
+}
+
+/* Containers */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+color: #fff;
+background-color: #ff4c68;
+}
+
+.white-section {
+background-color: #fff;
+}
+
+/* HEADINGS */
+.big-heading {
+  font-weight: 700;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: #fff;
+}
+
+.section-heading {
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+/* Navigation Bar */
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar {
+  padding: 0 0 4.5rem 0;
+}
+
+.nav-item {
+  padding: 0 18px;
+  font-size: 1.3rem;
+}
+
+/* Title section */
+#title .container-fluid {
+padding: 3% 15% 7% 15%;
+text-align: left;
+}
+
+/* Download Buttons */
+.btn-download {
+  margin: 2rem 0.5rem;
+}
+
+/* Phone Image */
+.img-phone {
+  width: 50%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+@media(max-width:1024px) {
+  .img-phone {
+    position: static;
+    transform: rotate(0);
+  }
+
+  .section-heading {
+    font-size: 2rem;
+    line-height: 1.5;
+  }
+}
+
+/* Features */
+#features {
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-column {
+  margin-bottom: 5rem;
+  padding: 5%;
+}
+
+.features-icon {
+  font-size: 5rem;
+  margin: 1rem 0;
+  color: #ef8172;
+}
+
+.features-icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonials */
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonial-text {
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+.img-testimonials {
+  width: 15%;
+  border-radius: 100%;
+  margin: 1.5rem;
+}
+
+.card-allign {
+  padding: 3%;
+}
+
+/* Press */
+#press {
+  background-color: #ef8172;
+  padding: 3% 2%;
+}
+
+#press>img {
+  width: 15%;
+  margin: 1.5rem 1.5rem 2rem;
+}
+
+/* Pricing */
+#pricing {
+  padding: 6rem;
+}
+
+/* Footer */
+
+.footer-icon {
+  margin: 0 0.5rem;
+  font-size: 1.5rem;
+}
+
+#footer>p {
+  font-size: 1rem;
+  margin-top: 1rem;
+}
